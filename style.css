@@ -193,8 +193,8 @@ section{
     font-weight: 700;
     box-shadow: 0 0 40px #077b32;
 }
-@media (max-width:884px) {
-    nav .logo{
+@media (max-width: 884px) {
+    nav .logo {
         position: absolute;
         top: 16px;
         left: 15px;
@@ -204,25 +204,26 @@ section{
         display: flex;
         flex-direction: column;
     }
-    .nav-container .links{
+    .nav-container .links {
         display: none;
     }
     .hamburg,
-    .cancel{
+    .cancel {
         display: block;
     }
-    .main-container .content{
+    .main-container .content {
         width: 80%;
     }
-    .social-links i{
+    .social-links i {
         width: 2.5rem;
         height: 2.5rem;
         font-size: 1.5rem;
     }
-    .main-container .image{
-        z-index: -1;
-        width: 50%;
-        height: 50%;
+    .main-container .image {
+        width: 50%;  /* 50% of the container's width */
+        height: auto; /* Let the height adjust based on the aspect ratio */
+        aspect-ratio: 1; /* Ensures a 1:1 ratio (square) */
+        margin-bottom: 0px;
     }
 }
 @media (max-width:440px){
