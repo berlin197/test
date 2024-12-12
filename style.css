@@ -222,13 +222,13 @@ section{
     .main-container .image{
         z-index: -1;
         width: 50%;
-        height: 60%;
+        height: 50%;
     }
 }
 @media (max-width:440px){
     .main-container .image{
         width: 50%;
-        height: 60%;
+        height: 50%;
         margin-bottom: 0px;
     }
     .main-container .content{
