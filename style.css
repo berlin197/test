@@ -8,7 +8,7 @@
 body{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: black;
 }
 nav{
@@ -195,7 +195,233 @@ section{
     font-weight: 700;
     box-shadow: 0 0 40px #077b32;
 }
+.main-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+.container h2{
+    color: white;
+}
+
+/* Contact Section */
+.contact-us {
+    background-color:rgb(173, 225, 173);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.address-section {
+    background-color: #eeeeee;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.address-section p {
+    font-size: 1rem;
+}
+#home{
+    padding-bottom: 80px;
+}
+#about{
+    padding-bottom: 80px;
+}
+#services{
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+#skills{
+    padding-bottom: 80px;
+}
+#contact{
+    padding-bottom: 80px;
+}
+
+.social-icons {
+    font-size: 1.2rem;
+}
+.about-preview .container p{
+    color: white;
+}
+
+footer {
+    margin-top: 80px;
+    padding-top: 80px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.skills-section {
+    background-color: #e6f7ff;
+    border: 2px solid #b3d7ff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/* Services Section */
+.services-section {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.service-item h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
 @media (max-width:884px) {
+
     nav .logo{
         position: absolute;
         top: 16px;
@@ -227,7 +453,152 @@ section{
         height: 200px;
     }
 }
-@media (max-width: 480px){
+/* Base Styles */
+section.contact-us {
+    padding: 3rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact_form {
+    display: grid;
+    gap: 1rem;
+}
+
+.form-group label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Submit Button Styles */
+/* .cta-button {
+    padding: 1rem 2rem;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+} */
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+/* Mobile-specific Styles */
+@media (max-width: 480px) {
+    /* Adjust padding for small screens */
+    section.contact-us {
+        padding: 2rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .contact_form {
+        display: block; /* Stacked layout for form elements */
+        gap: 1.5rem;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .form-group input {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .form-group textarea {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    /* Submit Button */
+    .cta-button {
+        width: 100%; /* Full width for the button */
+        padding: 1rem;
+    }
+
+    /* Adjust for small text, spacing, and mobile-friendly layout */
+    .address-section .container {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    /* Remove extra padding in other sections on mobile */
+    .main-container .image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 0;
+    }
+
+    .main-container .content {
+        width: 100%; /* Allow content to take full width */
+        text-align: center;
+    }
+
+    /* Button adjustments for smaller screens */
+    .main-container button {
+        margin-top: 15px;
+    }
+
+    .social-links a {
+        margin-right: 5px; /* Adjust spacing between social links */
+    }
+
+    .service-item {
+        flex: 1 1 100%; /* Full width for services on mobile */
+    }
+
+    .skills-container {
+        gap: 1rem;
+    }
+
+    .skill {
+        flex: 1 1 100%; /* Full width for skills on mobile */
+    }
+}
+
+
+    section{
+        padding: ;
+    }
     .main-container .image{
         width: 200px;
         height: 200px;
@@ -239,4 +610,37 @@ section{
     .main-container button{
         margin-top: 15px;
     }
-}
+
+        #home .main-container {
+          padding: 1rem;
+        }
+      
+        .social-links a {
+          margin-right: 5px;
+        }
+      
+        .btn button {
+          padding: 8px 16px;
+        }
+      
+        .service-item {
+          flex: 1 1 100%;
+        }
+      
+        .skills-container {
+          gap: 1rem;
+        }
+      
+        .skill {
+          flex: 1 1 100%;
+        }
+      
+        .contact-us form {
+          grid-template-columns: 1fr;
+        }
+      
+        .address-section .container {
+          font-size: 0.9rem;
+        }
+      
+} */
