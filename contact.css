@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Contact Section */
+.contact-us {
+    background-color:rgb(173, 225, 173);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.address-section {
+    background-color: #eeeeee;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.address-section p {
+    font-size: 1rem;
+}
+
+.social-icons {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
